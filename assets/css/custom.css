@@ -1,0 +1,239 @@
+body {background:#fff !important;}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+.uk-section * {    font-family: 'Open Sans', sans-serif ;}
+#meta_image_url, .uk-form-custom {
+  display: block;
+}
+
+.uk-form-custom input {
+  width: 600px !important;
+  height: 314px !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.uk-form-custom {
+  position: relative;
+  width: 600px;
+}
+
+.upload_icon {
+  position: absolute;
+  width:100%;
+  height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  top: 0;
+  flex-direction: column;
+  background: rgba(0,0,0,.6);
+  transition:all .35s linear;
+}
+
+.uk-form-custom:hover .upload_icon {
+	background-color: rgba(53,130,196,.6);
+}
+
+.uk-form-custom:hover .uk-icon{
+	transform:translateY(-10px);
+}
+
+.uk-form-custom .uk-icon {
+  background-color: #D4E6FE;
+  border-radius: 50%;
+  padding: 10px;
+  color: #2A81FB;
+  transition:all .35s linear;
+  
+}
+.uk-form-custom .upload_text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.title-google, .title-card-woo {
+  display: block;
+  letter-spacing: normal;
+  color: #1a0dab;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.title-google:hover {
+  text-decoration: underline;
+}
+
+.google-url-full {
+  position: relative;
+  top: -2px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: normal;
+  color: #006621;
+}
+
+
+.google-arrow {
+  display: none;
+  vertical-align: middle;
+  margin-top: -4px;
+  margin-left: 3px;
+  border-width: 5px 4px 0 4px;
+  border-style: solid;
+  border-color: #006621 transparent;
+}
+.google-arrow {
+  display: inline-block;
+}
+
+.google-description, .woo-description {
+  color: #545454;
+  font-size: 13px;
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+
+
+.MTIOG-card-smedia {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  background-color: #ffffff;
+  margin: 0 -20px;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+  transition: background-color .15s ease-in-out,border-color .15s ease-in-out;
+  margin: 0;
+  width: 500px;
+  border: 1px solid #dadde1;
+}
+
+.card-image-smedia {
+	width: 500px;
+	height: 261px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.card-smedia-all-text {
+	border-top: 1px solid #dadde1;
+	padding: 10px 12px;
+	color: #1d2129;
+	background: #f2f3f5;
+}
+.card-smedia-cdomain {
+	border-collapse: separate;
+	color: #606770;
+	direction: ltr;
+	display: block;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	height: 11px;
+	line-height: 11px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	text-align: left;
+	text-overflow: ellipsis;
+	text-transform: uppercase;
+	user-select: none;
+	white-space: nowrap;
+	width: 501px;
+	word-wrap: break-word;
+	-webkit-border-horizontal-spacing: 0px;
+	-webkit-border-vertical-spacing: 0px;
+	-webkit-font-smoothing: antialiased;
+}
+
+.card-smedia-title, .card-smedia-title-woo {
+	margin-top: 5px;
+border-collapse: separate;
+color: #1d2129;
+cursor: pointer;
+direction: ltr;
+display: inline;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 16px;
+font-weight: 600;
+height: auto;
+letter-spacing: normal;
+line-height: 20px;
+text-align: left;
+text-decoration-color: #1d2129;
+text-decoration-line: none;
+text-decoration-style: solid;
+transition-delay: 0s;
+transition-duration: 0.1s;
+transition-property: color;
+transition-timing-function: ease-in-out;
+user-select: none;
+white-space: normal;
+width: auto;
+word-wrap: break-word;
+-webkit-border-horizontal-spacing: 0px;
+-webkit-border-vertical-spacing: 0px;
+-webkit-font-smoothing: antialiased;
+}
+
+.card-smedia-content, .card-woo-content {
+	border-collapse: separate;
+	color: #606770;
+	direction: ltr;
+	display: -webkit-box;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	height: 18px;
+	line-height: 20px;
+	margin-top: 3px;
+	max-height: 80px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	text-align: left;
+	text-overflow: ellipsis;
+	user-select: none;
+	white-space: normal;
+	word-break: break-word;
+	word-wrap: break-word;
+	-webkit-border-horizontal-spacing: 0px;
+	-webkit-border-vertical-spacing: 0px;
+	-webkit-box-orient: vertical;
+	-webkit-font-smoothing: antialiased;
+	-webkit-line-clamp: 1;
+}
+
+
+.uk-button.uk-button-default.MTIOGBtn {
+  background-color: #1E88F0;
+  color: #fff;
+  font-weight: bold;
+  text-transform: inherit;
+}
+.MTIOG_input, .MTIOG_textarea {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+label, legend, .uk-h5 {
+	font-size: 14px;
+	letter-spacing: 0.015em;
+	color: #1E88F0;
+	font-weight:bold;
+}
+
+fieldset label {
+  color: #000 !important;
+  font-weight: normal;
+}
+
+
+.woocommerce-form.non-woo {
+  filter: grayscale(100%);
+}
